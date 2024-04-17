@@ -1,0 +1,44 @@
+body {
+    margin: 1cm;
+    background-image: url("imagenes/fondo-de-la-costura-y-de-la-costura-42543823.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2cm;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+nav {
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(54, 54, 80);
+    padding: 1cm;
+  }
+  
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 80%;
+  }
+  
+.section {
+    width: 100%;
+    padding: 1cm;
+    margin: 1cm;
+    border: 5px solid rgb(80, 78, 132);
+    background-color: rgb(110, 117, 191);
+  }
+  
+  
+.section h1 {
+    color: #ffffff;
+  }
